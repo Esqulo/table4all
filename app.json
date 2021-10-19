@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "Table4All",
+    "slug": "Table4All",
+    "version": "1.4.1",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-9791816249338036~3082083742"
+      },
+      "bundleIdentifier": "com.table4all.table4all"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.table4all.table4all",
+      "versionCode": 7,
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-9791816249338036~3082083742"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
